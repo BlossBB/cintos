@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {mobile} from "../responsive";
 
 const Container = styled.div`
   width: 100vw;
@@ -20,6 +21,7 @@ const Wrapper = styled.div`
   padding: 20px;
   background-color: white;
   border-radius: 5px;
+  ${mobile({ width: "75%" })}
 `;
 
 const Title = styled.h1`
@@ -59,6 +61,18 @@ const Button = styled.button`
   margin: 10px auto;
 `;
 
+const Checkbox = styled.input`
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin-left: 10px;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+
+`;
+
 const Register = () => {
   return (
     <Container>
@@ -69,11 +83,12 @@ const Register = () => {
           <Input placeholder="Apellido" />
           <Input placeholder="Nombre de Usuario" />
           <Input placeholder="Email" />
-          <Input placeholder="Contraseña" />
-          <Input placeholder="Confirmar contraseña" />
+          <Input placeholder="Contraseña" type="password"/>
+          <Input placeholder="Confirmar contraseña" type="password"/>
           <Agreement>
             Al crear una cuenta, doy mi consentimiento para el procesamiento de mis datos personales.
             datos de acuerdo con la <b>Politica de Privacidad</b>
+            <Checkbox type="checkbox"/>
           </Agreement>
           <Button>CREAR</Button>
         </Form>
