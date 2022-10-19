@@ -25,25 +25,25 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT STYLE!",
+      img: "https://images.pexels.com/photos/5710960/pexels-photo-5710960.jpeg?auto=compress&cs=tinysrgb&w=600",
+      title: "ARTESANAL",
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",
+      img: "https://images.pexels.com/photos/6654754/pexels-photo-6654754.jpeg?auto=compress&cs=tinysrgb&w=600",
+      title: "COLECCION DE OTOÑO",
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",
+      img: "https://images.pexels.com/photos/6654765/pexels-photo-6654765.jpeg?auto=compress&cs=tinysrgb&w=600",
+      title: "NUEVA LINEA",
     },
   ];
 
   export const popularProducts = [
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://www.freepnglogos.com/uploads/belts-png/belts-simple-26.png",
     },
     {
       id:2,
@@ -51,19 +51,19 @@ export const sliderItems = [
     },
     {
       id:3,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+      img:"https://www.freepnglogos.com/uploads/belts-png/belts-simple-26.png",
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://www.freepnglogos.com/uploads/belts-png/belts-leather-with-transparent-background-10.png",
     },
     {
       id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+      img:"https://www.freepnglogos.com/uploads/belts-png/designer-belts-for-men-1.png",
     },
     {
       id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+      img:"https://www.freepnglogos.com/uploads/belts-png/belts-leather-with-transparent-background-10.png",
     },
     {
       id:7,
@@ -71,6 +71,6 @@ export const sliderItems = [
     },
     {
       id:8,
-      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+      img:"https://www.freepnglogos.com/uploads/belts-png/belts-leather-belt-png-images-with-transparent-background-7.png",
     },
   ]
